@@ -1,0 +1,32 @@
+{
+  "name": "bracket",
+  "version": "0.0.0",
+  "description": "A CLI Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talonbragg/bracket.git"
+  },
+  "keywords": [
+    "CLI",
+    "Bracket",
+    "bracket",
+    "tool",
+    "CLI",
+    "tool",
+    "cli",
+    "tool"
+  ],
+  "author": "Talon Bragg <pvpgamecrash@gmail.com> (http://custommarkup.ml)",
+  "license": "MIT",
+  "bin": {
+    "snippet": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/talonbragg/bracket/issues"
+  },
+  "homepage": "https://github.com/talonbragg/bracket#readme"
+}
