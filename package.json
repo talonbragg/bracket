@@ -23,7 +23,7 @@
   "author": "Talon Bragg <pvpgamecrash@gmail.com> (http://custommarkup.ml)",
   "license": "MIT",
   "bin": {
-    "snippet": "./index.js"
+    "bracket": "./index.js"
   },
   "bugs": {
     "url": "https://github.com/talonbragg/bracket/issues"
