@@ -28,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/talonbragg/bracket/issues"
   },
-  "homepage": "https://github.com/talonbragg/bracket#readme"
+  "homepage": "https://github.com/talonbragg/bracket#readme",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "mkdirp": "^0.5.1",
+    "mrnode": "^1.0.2"
+  }
 }

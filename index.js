@@ -1,3 +1,17 @@
 #!/usr/bin/env node
+const program = require('commander');
+const mkdirp = require('mkdirp');
+const pkg = require('./package.json');
 
-console.log('The CLI Tool is ready to begin.');
+program
+	.option('-i, --init, <init>', 'Initialize a directory')
+	.action(function() {
+		if(program.init) mkdirp(program.init, function(err) { 
+
+    		
+
+		});
+		console.log('Directory Created!');
+	})
+	.parse(process.argv);
+	
