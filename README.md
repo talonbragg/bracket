@@ -42,12 +42,22 @@ Coming Soon
 <a name="feat"></a>
 ## Features
 
-insert features here
+**Creating Directories:** 
+
+```shell
+
+$ bracket -i, --init <directory>
 
 <a name="cont"></a>
 ## Contribute
 
-insert text here
+**Clone with Git:** 
+
+```shell
+
+$ git clone https://github.com/talonbragg/bracket
+
+```
 
 <a name="l"></a>
 ## License and Copyright
