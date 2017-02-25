@@ -1,5 +1,5 @@
 {
-  "name": "bracket",
+  "name": "bracketcli",
   "version": "0.0.0",
   "description": "A CLI Tool",
   "main": "index.js",
