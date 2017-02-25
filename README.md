@@ -23,13 +23,17 @@ BracketCLI is an easy to use Command Line Interface tool. It comes with Mr. Node
 <a name="docs"></a>
 ## Documentation
 
-**Npm:** ```shell
+**Npm:** 
+
+```shell
 
 $ npm install --save bracketcli
 
 ```
 
-**Bower:** ```shell
+**Bower:** 
+
+```shell
 
 Coming Soon
 
