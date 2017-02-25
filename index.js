@@ -8,10 +8,8 @@ program
 	.action(function() {
 		if(program.init) mkdirp(program.init, function(err) { 
 
-    		
-
 		});
-		console.log('Directory Created!');
 	})
 	.parse(process.argv);
+	console.log('Directory Created!');
 	
