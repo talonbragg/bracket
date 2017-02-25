@@ -18,7 +18,7 @@ BracketCLI is an easy to use Command Line Interface tool. It comes with Mr. Node
 <a name="usage"></a>
 ## Usage
 
-<insert usage here>
+insert usage here
 
 <a name="docs"></a>
 ## Documentation
@@ -42,13 +42,14 @@ Coming Soon
 <a name="feat"></a>
 ## Features
 
-<insert features here>
+insert features here
 
 <a name="cont"></a>
 ## Contribute
 
-<insert text here
+insert text here
 
+<a name="l"></a>
 ## License and Copyright
 
 Licensed under the MIT License
