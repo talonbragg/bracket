@@ -48,6 +48,8 @@ Coming Soon
 
 $ bracket -i, --init [directory]
 
+```
+
 <a name="cont"></a>
 ## Contribute
 
