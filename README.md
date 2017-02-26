@@ -4,11 +4,11 @@ A modern CLI for the modern web
 
 ## Table of Contents
 - <a href="#about">About</a>
-- <a>Usage</a>
-- <a>Docs</a>
-- <a>Features</a>
-- <a>Contribute</a>
-- <a>License and Copyright</a>
+- <a href="#usage">Usage</a>
+- <a href="#docs">Docs</a>
+- <a href="#feat">Features</a>
+- <a href="#cont">Contribute</a>
+- <a href="#l">License and Copyright</a>
 
 <a name="about"></a>
 ## About
@@ -46,7 +46,7 @@ Coming Soon
 
 ```shell
 
-$ bracket -i, --init <directory>
+$ bracket -i, --init [directory]
 
 <a name="cont"></a>
 ## Contribute
