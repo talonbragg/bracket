@@ -3,7 +3,7 @@ describe('Array', function() {
     describe('#indexOf()', function() {
         it('should make a cli', function() {
 
-            var package = require("/../package.json");
+            var package = require("./../package.json");
 
             const init = () => {
                 console.log("Thanks for using bracket, a flexible command line tool. For more infor mation on commands, type $ bracket -h or --help in your cmd session. If you already know how to use bracket, carry on! :)" + space(1));
