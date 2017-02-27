@@ -27,7 +27,7 @@ insert usage here
 
 ```shell
 
-$ npm install --save bracketcli
+$ npm install -g bracketcli
 
 ```
 
