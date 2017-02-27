@@ -3,7 +3,7 @@
 
 <img src="bracketlogo.png">
 
-**A modern CLI for the modern web**
+**A modern CLI for the modern world**
 **(Under Contruction, DO NOT USE YET)**
 
 ## Table of Contents
