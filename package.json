@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "description": "A CLI Tool",
   "main": "bin/bracket",
-  "bin": "./bin/bracket"
+  "bin": "./bin/bracket",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
