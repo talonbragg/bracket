@@ -1,8 +1,9 @@
 {
   "name": "bracketcli",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "A CLI Tool",
-  "main": "index.js",
+  "main": "bin/bracket",
+  "bin": "./bin/bracket"
   "scripts": {
     "test": "none"
   },
