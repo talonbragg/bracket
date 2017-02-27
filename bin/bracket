@@ -3,14 +3,60 @@
 
 var package = require("/../package.json");
 
-const launch = () => {
-  console.log("Thanks for using bracket, a flexible command line tool. For more infor mation on commands, type $ bracket help in your cmd session. If you already know how to use bracket, carry on! :)");
+const init = () => {
+  console.log("Thanks for using bracket, a flexible command line tool. For more infor mation on commands, type $ bracket -h or --help in your cmd session. If you already know how to use bracket, carry on! :)" + space(1));
 }
 
-const help = () => {
-  console.log("Put something here");
+const -h = () => {
+  console.log("Initialize bracket:");
+  console.log("   Go to your directory and type $ bracket init");
+  console.log("Usage:");
+  console.log("   bracket [command] [quantity]");
+  console.log("Commands:");
+  console.log("   -h, --help\tGives you this amazing help section");
+  console.log("   -v, --version\tPrints the version of bracket you currently have");
+  exit();
+}
+
+const --help = () => {
+  console.log("Initialize bracket:");
+  console.log("   Go to your directory and type $ bracket init");
+  console.log("Usage:");
+  console.log("   bracket [command] [quantity]");
+  console.log("Commands:");
+  console.log("   -h, --help\tGives you this amazing help section");
+  console.log("   -v, --version\tPrints the version of bracket you currently have");
+  console.log("   -li, --license\tDisplays out beautiful license");
+  console.log("   -c, --contribute\tContribute to our beautiful tool plz");
+  exit();
+}
+
+const -li = () => {
+ console.log("bracket is relased under the MIT license."); 
+ console.log("Put license here...");
+}
+
+const --license = () => {
+ console.log("bracket is relased under the MIT license. You can check it out on GitHub."); 
+ console.log("Put license here...");
+}
+
+const -c = () => {
+ console.log("You can contribute to bracket in two ways:");
+ console.log("   1. GitHub, bracket is availible for free on GitHub at https://github.com/talonbragg/bracket");
+ console.log("   2. Support us on Paypal ;)");
+}
+
+const --contribute = () => {
+ console.log("You can contribute to bracket in two ways:");
+ console.log("   1. GitHub, bracket is availible for free on GitHub at https://github.com/talonbragg/bracket");
+ console.log("   2. Support us on Paypal ;)");
 }
 
 const -v = () => {
+  console.log(package.version);
+}
+
+const --version = () => {
   console.log(package.version);
 }
