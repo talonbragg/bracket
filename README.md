@@ -3,8 +3,8 @@
 
 <img src="bracketlogo.png">
 
-A modern CLI for the modern web
-(Under Contruction, DO NOT USE YET)
+**A modern CLI for the modern web**
+**(Under Contruction, DO NOT USE YET)**
 
 ## Table of Contents
 - <a href="#about">About</a>
