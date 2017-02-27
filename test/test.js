@@ -2,7 +2,6 @@ var assert = require('assert');
 describe('Array', function() {
     describe('#indexOf()', function() {
         it('should make a cli', function() {
-            "use strict";
 
             var package = require("/../package.json");
 
