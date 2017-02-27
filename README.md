@@ -1,6 +1,8 @@
 # Bracket
 [![Build Status](https://travis-ci.org/talonbragg/bracket.svg?branch=master)](https://travis-ci.org/talonbragg/bracket)
 
+<img src="bracketlogo.png">
+
 A modern CLI for the modern web
 (Under Contruction, DO NOT USE YET)
 
