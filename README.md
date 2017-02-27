@@ -31,7 +31,7 @@ insert usage here
 
 ```shell
 
-$ npm install -g bracketcli
+Coming Soon!
 
 ```
 
@@ -39,7 +39,7 @@ $ npm install -g bracketcli
 
 ```shell
 
-Coming Soon
+Coming Soon!
 
 ```
 
