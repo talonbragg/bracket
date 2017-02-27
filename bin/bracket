@@ -1,1 +1,16 @@
+#!/usr/bin/env node
+"use strict";
 
+var package = require("/../package.json");
+
+const launch = () => {
+  console.log("Thanks for using bracket, a flexible command line tool. For more infor mation on commands, type $ bracket help in your cmd session. If you already know how to use bracket, carry on! :)");
+}
+
+const help = () => {
+  console.log("Put something here");
+}
+
+const -v = () => {
+  console.log(package.version);
+}
