@@ -5,8 +5,8 @@
   "main": "bin/bracket",
   "bin": "./bin/bracket",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "tests/test.js",
+    "start": "node ./bin/bracket"
   },
   "repository": {
     "type": "git",
