@@ -32,8 +32,6 @@
   },
   "homepage": "https://github.com/talonbragg/bracket#readme",
   "devDependencies": {
-    "commander": "^2.9.0",
-    "mkdirp": "^0.5.1",
-    "mrnode": "^1.0.2"
+    "mocha": "^3.2.0"
   }
 }
