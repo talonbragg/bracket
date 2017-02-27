@@ -5,7 +5,7 @@
   "main": "bin/bracket",
   "bin": "./bin/bracket",
   "scripts": {
-    "test": "tests/test.js",
+    "test": "mocha",
     "start": "node ./bin/bracket"
   },
   "repository": {
