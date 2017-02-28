@@ -5,7 +5,7 @@
   "main": "./bin/bracket",
   "bin": {
     "bracket": "./bin/bracket"
-  }
+  },
   "scripts": {
     "test": "mocha"
   },
