@@ -2,7 +2,7 @@
   "name": "bracketcli",
   "version": "0.0.0",
   "description": "A CLI Tool",
-  "main": "./bin/bracket",
+  "main": "bin/bracket",
   "bin": {
     "bracket": "./bin/bracket"
   },
@@ -25,9 +25,6 @@
   ],
   "author": "Talon Bragg <pvpgamecrash@gmail.com> (http://custommarkup.ml)",
   "license": "MIT",
-  "bin": {
-    "bracket": "./bin/bracket"
-  },
   "bugs": {
     "url": "https://github.com/talonbragg/bracket/issues"
   },
