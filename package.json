@@ -2,11 +2,10 @@
   "name": "bracketcli",
   "version": "0.0.0",
   "description": "A CLI Tool",
-  "main": "bin/bracket",
+  "main": "./bin/bracket",
   "bin": "./bin/bracket",
   "scripts": {
-    "test": "mocha",
-    "start": "node ./bin/bracket"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
