@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A CLI Tool",
   "main": "./bin/bracket",
-  "bin": "./bin/bracket",
+  "bin": {
+    "bracket": "./bin/bracket"
+  }
   "scripts": {
     "test": "mocha"
   },
