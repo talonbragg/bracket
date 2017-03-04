@@ -26,24 +26,26 @@ function help() {
   console.log("   -v, --version\tPrints the version of bracket you currently have");
   console.log("   -li, --license\tDisplays out beautiful license");
   console.log("   -c, --contribute\tContribute to our beautiful tool plz");
-  exit();
+
 }
+  exit();
 
 function license() {
  console.log("bracket is relased under the MIT license. You can check it out on GitHub.");
  console.log("Put license here...");
- exit();
+
 }
+ exit();
 
 function contribute() {
  console.log("You can contribute to bracket in two ways:");
  console.log("   1. GitHub, bracket is availible for free on GitHub at https://github.com/talonbragg/bracket");
  console.log("   2. Support us on Paypal ;)");
- exit();
 }
+ exit();
 
 
 function version() {
  console.log(package.version);
- exit();
 }
+ exit();
