@@ -12,11 +12,11 @@ const rl = readline.createInterface({
 
 // test.defineRl(rl);
 
-const init = () => {
+function init() {
   console.log("Thanks for using bracket, a flexible command line tool. For more information on commands, type $ bracket -h or --help in your cmd session. If you already know how to use bracket, carry on! :)" + space(1));
-};
+}
 
-const help = () => {
+function help() {
   console.log("Initialize bracket:");
   console.log("   Go to your directory and type $ bracket init");
   console.log("Usage:");
@@ -27,23 +27,23 @@ const help = () => {
   console.log("   -li, --license\tDisplays out beautiful license");
   console.log("   -c, --contribute\tContribute to our beautiful tool plz");
   exit();
-};
+}
 
-const license = () => {
+function license() {
  console.log("bracket is relased under the MIT license. You can check it out on GitHub.");
  console.log("Put license here...");
  exit();
-};
+}
 
-const contribute = () => {
+function contribute() {
  console.log("You can contribute to bracket in two ways:");
  console.log("   1. GitHub, bracket is availible for free on GitHub at https://github.com/talonbragg/bracket");
  console.log("   2. Support us on Paypal ;)");
  exit();
-};
+}
 
 
-const version = () => {
+function version() {
  console.log(package.version);
  exit();
-};
+}
