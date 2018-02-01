@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "mocha"
+    "start": "/bin/bracket"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
     "cli",
     "tool"
   ],
-  "author": "Talon Bragg <pvpgamecrash@gmail.com> (http://custommarkup.ml)",
+  "author": "Talon Bragg, Shreyas Lad",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/talonbragg/bracket/issues"
