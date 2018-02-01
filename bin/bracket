@@ -12,10 +12,6 @@ const rl = readline.createInterface({
 
 // test.defineRl(rl);
 
-function init() {
-  console.log("Thanks for using bracket, a flexible command line tool. For more information on commands, type $ bracket -h or --help in your cmd session. If you already know how to use bracket, carry on! :)" + space(1));
-}
-
 function help() {
   console.log("Initialize bracket:");
   console.log("   Go to your directory and type $ bracket init");
