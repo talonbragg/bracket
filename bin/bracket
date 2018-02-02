@@ -1,14 +1,6 @@
 #!/usr/bin/env node
 
-var readline = require('readline');
-var package = require("../package.json");
-var command = process.argv.slice(2);
-// var test = require('../test/test.js');
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const program = require('commander');
 
 // test.defineRl(rl);
 
