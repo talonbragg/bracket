@@ -4,36 +4,42 @@ const program = require('commander');
 
 // test.defineRl(rl);
 
-function help() {
-  console.log("Initialize bracket:");
-  console.log("   Go to your directory and type $ bracket init");
-  console.log("Usage:");
-  console.log("   bracket [command] [quantity]");
-  console.log("Commands:");
-  console.log("   -h, --help\tGives you this amazing help section");
-  console.log("   -v, --version\tPrints the version of bracket you currently have");
-  console.log("   -li, --license\tDisplays out beautiful license");
-  console.log("   -c, --contribute\tContribute to our beautiful tool plz");
+program
+  .command('version')
+  .alias('-v')
+  .description('Version of the program.')
+  .action(() => {console.log('0.0.1');})
 
-}
-  exit();
+program
+  .command('help')
+  .alias('-h')
+  .description('Shows basic info and helps you with commands in the program')
+  .action(() => {
+    console.log("Initialize bracket:");
+    console.log("   Go to your directory and type $ bracket init");
+    console.log("Usage:");
+    console.log("   bracket [command] [quantity]");
+    console.log("Commands:");
+    console.log("   -h, --help\tGives you this amazing help section");
+    console.log("   -v, --version\tPrints the version of bracket you currently have");
+    console.log("   -li, --license\tDisplays out beautiful license");
+    console.log("   -c, --contribute\tContribute to our beautiful tool plz");
+  });
 
-function license() {
- console.log("bracket is relased under the MIT license. You can check it out on GitHub.");
- console.log("Put license here...");
+program
+  .command('license')
+  .alias('-l')
+  .description('Basic license of the program.')
+  .action(() => {
+    console.log("bracket is relased under the MIT license. You can check it out on GitHub.");
+    console.log("Put license here...");
+  });
 
-}
- exit();
-
-function contribute() {
- console.log("You can contribute to bracket in two ways:");
- console.log("   1. GitHub, bracket is availible for free on GitHub at https://github.com/talonbragg/bracket");
- console.log("   2. Support us on Paypal ;)");
-}
- exit();
-
-
-function version() {
- console.log(package.version);
-}
- exit();
+program
+  .command('contribute')
+  .alias('-c')
+  .description('Displays different ways to contribute to our programs.')
+  .action(() => {
+    console.log("You can contribute to the Github repository here: https://github.com/talonbragg/bracket");
+    console.log("You can also contribute by donating to our paypal here: http://paypal.me/TalonBragg");
+  });
