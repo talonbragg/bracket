@@ -7,7 +7,6 @@
     "bracket": "./bin/bracket"
   },
   "scripts": {
-    "test": "mocha",
     "start": "/bin/bracket"
   },
   "repository": {
