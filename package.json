@@ -6,9 +6,6 @@
   "bin": {
     "bracket": "./bin/bracket"
   },
-  "scripts": {
-    "start": "/bin/bracket"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/talonbragg/bracket.git"
