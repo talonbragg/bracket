@@ -2,38 +2,36 @@
 
 const program = require('commander');
 
-// test.defineRl(rl);
-
 program
-  .command('version')
-  .alias('-v')
-  .description('Version of the program.')
-  .action(() => {console.log('0.0.1');})
+  .version('0.0.1')
+  .option('-h, --help', 'Displays a help page')
+  .option('-v, --version', 'Displays the version of the cli.')
+  .option('-l, --license', 'Displays the license of the cli.')
+  .option('-c, --contribute', 'Displays the ways to contribute to the cli.)
+  .parse(process.argv);
 
-program
-  .command('help')
-  .alias('-h')
-  .description('Shows basic info and helps you with commands in the program')
-  .action(() => {
-    console.log("Initialize bracket:");
-    console.log("   Go to your directory and type $ bracket init");
-    console.log("Usage:");
-    console.log("   bracket [command] [quantity]");
-    console.log("Commands:");
-    console.log("   -h, --help\tGives you this amazing help section");
-    console.log("   -v, --version\tPrints the version of bracket you currently have");
-    console.log("   -li, --license\tDisplays out beautiful license");
-    console.log("   -c, --contribute\tContribute to our beautiful tool plz");
-  });
+console.log('============== Bracket CLI ==============');
+console.log('Use -h or --help to see the commands.');
 
-program
-  .command('license')
-  .alias('-l')
-  .description('Basic license of the program.')
-  .action(() => {
-    console.log("bracket is relased under the MIT license. You can check it out on GitHub.");
-    console.log("Put license here...");
-  });
+if (program.help) {
+  console.log("Initialize bracket:");
+  console.log("   Go to your directory and type $ bracket init");
+  console.log("Usage:");
+  console.log("   bracket [command] [quantity]");
+  console.log("Commands:");
+  console.log("   -h, --help\tGives you this amazing help section");
+  console.log("   -v, --version\tPrints the version of bracket you currently have");
+  console.log("   -li, --license\tDisplays out beautiful license");
+  console.log("   -c, --contribute\tContribute to our beautiful tool plz");
+}
+if(program.license) {
+  console.log("bracket is relased under the MIT license. You can check it out on GitHub.");
+  console.log("Put license here...");
+}
+if(program.contribute) {
+  console.log("You can contribute to the Github repository here: https://github.com/talonbragg/bracket");
+  console.log("You can also contribute by donating to our paypal here: http://paypal.me/TalonBragg");
+}
 
 program
   .command('contribute')
