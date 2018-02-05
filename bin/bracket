@@ -7,7 +7,7 @@ program
   .option('-h, --help', 'Displays a help page')
   .option('-v, --version', 'Displays the version of the cli.')
   .option('-l, --license', 'Displays the license of the cli.')
-  .option('-c, --contribute', 'Displays the ways to contribute to the cli.)
+  .option('-c, --contribute', 'Displays the ways to contribute to the cli.')
   .parse(process.argv);
 
 console.log('============== Bracket CLI ==============');
@@ -32,12 +32,6 @@ if(program.contribute) {
   console.log("You can contribute to the Github repository here: https://github.com/talonbragg/bracket");
   console.log("You can also contribute by donating to our paypal here: http://paypal.me/TalonBragg");
 }
-
-program
-  .command('contribute')
-  .alias('-c')
-  .description('Displays different ways to contribute to our programs.')
-  .action(() => {
-    console.log("You can contribute to the Github repository here: https://github.com/talonbragg/bracket");
-    console.log("You can also contribute by donating to our paypal here: http://paypal.me/TalonBragg");
-  });
+if(program.version) {
+  console.log("0.0.1");
+}
