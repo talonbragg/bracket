@@ -14,7 +14,7 @@ A modern CLI for the modern world
 - <a href="#docs">Docs</a>
 - <a href="#feat">Features</a>
 - <a href="#cont">Contribute</a>
-- <a href="#l">License and Copyright</a>
+- <a href="#l">License</a>
 
 <a name="about"></a>
 ## About
