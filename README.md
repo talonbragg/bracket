@@ -33,7 +33,7 @@ insert usage here
 
 ```shell
 
-Coming Soon!
+npm install bracketcli
 
 ```
 
