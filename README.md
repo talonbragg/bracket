@@ -5,8 +5,8 @@
 
 <img src="bracketlogo.png">
 
-**A modern CLI for the modern world**
-**(Early Release, MAY HAVE BUGS.)**
+A modern CLI for the modern world
+**(Early Release, May have bugs.)**
 
 ## Table of Contents
 - <a href="#about">About</a>
