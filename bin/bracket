@@ -12,9 +12,6 @@ program
   .option('-c, --contribute', 'Displays the ways to contribute to the cli.')
   .parse(process.argv);
 
-console.log('============== Bracket CLI ==============');
-console.log('Use -h or --help to see the commands.');
-
 if (program.help) {
   console.log("Initialize bracket:");
   console.log("   Go to your directory and type $ bracket init");

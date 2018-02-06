@@ -1,6 +1,6 @@
 {
   "name": "bracketcli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI Tool",
   "main": "bin/bracket",
   "bin": {
@@ -34,8 +34,7 @@
     "bracket": "0.0.6",
     "commander": "^2.14.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "directories": {
     "test": "test"
   }
