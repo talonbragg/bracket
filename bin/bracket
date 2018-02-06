@@ -20,7 +20,7 @@ if (program.help) {
   console.log("Commands:");
   console.log("   -h, --help\tGives you this amazing help section");
   console.log("   -v, --version\tPrints the version of bracket you currently have");
-  console.log("   -li, --license\tDisplays out beautiful license");
+  console.log("   -l, --license\tDisplays our beautiful license");
   console.log("   -c, --contribute\tContribute to our beautiful tool plz");
 }
 if(program.license) {
