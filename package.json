@@ -1,10 +1,10 @@
 {
   "name": "bracketcli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A CLI Tool",
   "main": "bin/bracket",
   "bin": {
-    "bracket": "./bin/bracket"
+    "bracket": "bin/bracket"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,10 @@
     "readline": "^1.3.0"
   },
   "dependencies": {
+    "bracket": "0.0.6",
     "commander": "^2.14.0"
+  },
+  "scripts": {
+    "test": "none"
   }
 }
